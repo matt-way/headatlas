@@ -1,4 +1,4 @@
-headatlas
+Head Atlas
 =========
 
-HeadAtlas landing page
+Head Atlas landing page
