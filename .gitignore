@@ -18,3 +18,5 @@ public/lib
 public/css/*.css
 *.sublime-project
 *.sublime-workspace
+
+id_ha*
