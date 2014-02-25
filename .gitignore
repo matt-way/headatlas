@@ -20,3 +20,5 @@ public/css/*.css
 *.sublime-workspace
 
 id_ha*
+
+.tmp
