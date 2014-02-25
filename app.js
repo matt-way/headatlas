@@ -11,7 +11,7 @@ var app = express();
 
 // all environments
 app.set('port', process.env.PORT || 3000);
-app.use(express.favicon(path.join(__dirname, 'public/images/favicon.png')));
+app.use(express.favicon(path.join(__dirname, 'public/images/favicon.PNG')));
 app.use(express.logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded());
