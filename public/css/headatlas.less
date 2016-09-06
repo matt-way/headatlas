@@ -19,14 +19,30 @@ div.frameTC {
 }
 
 body {
-	background-color: #fff;
+	background-color: #fc3432;
+	margin: 0;
 }
 
 /* custom styles */
 .ha-logo {
 	width: 250px;
 	display: block;
-    margin: 0px auto 30px auto;
+    margin: 30px auto 30px auto;
+}
+
+.social {
+	margin: 20px auto;
+	color: #fff;
+	text-align: center;
+	font-size: 28px;
+
+	span {
+		margin: 10px;
+
+		&:hover {
+			color: #333;
+		}
+	}
 }
 
 .extra {
@@ -35,5 +51,42 @@ body {
 	.extra-text {
 		text-align: center;
 	}
+}
+
+.btn {
+	color: #fc3432;
+}
+
+.soundcloud-embeds {
+	width: 100%;
+	margin: 50px 0;
+}
+
+#canvas-background {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	display: none;
+	z-index: -1;
+}
+
+.no-padding {
+	padding: 0 !important;
+}
+
+iframe {
+	width: 100%;
+}
+
+a {
+	color: #fff;
+
+	&:hover {
+		color: #ddd;
+	}
+}
+
+#logo:hover~#canvas-background {
+	display: block;
 }
 

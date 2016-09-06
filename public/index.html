@@ -8,14 +8,23 @@
     <meta name="author" content="">
 
     <link rel="stylesheet" href="css/bootstrap/bootstrap.css"/>
+    <link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet">
 
 	<link href="css/headatlas.css" rel="stylesheet">
 </head>
 <body>
-	<div class="container frameT">
-		<div class="row frameTC">
-			<div class="col-md-4 col-md-offset-4 ha-content">
-				<img class="ha-logo" src="images/logo_a.jpg"/>
+	<canvas id="canvas-background" width="32" height="32"></canvas>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3 ha-content">
+				<img id="logo" class="ha-logo" src="images/logo_white.png"/>
+
+				<div class="social">
+					<a href="https://www.instagram.com/headatlas/" target="_blank"><span class="socicon-instagram"></span></a>
+					<a href="http://twitter.com/headatlas" target="_blank"><span class="socicon-twitter"></span></a>
+					<a href="https://www.facebook.com/headatlas" target="_blank"><span class="socicon-facebook"></span></a>
+					<a href="mailto:hello@headatlas.com"><span class="socicon-mail"></span></a>
+				</div>
 
 				<!-- mailchimp subscriber form -->
 				<form action="http://headatlas.us3.list-manage.com/subscribe/post?u=3a3d3fe4bc32ccbeba886fb81&amp;id=55cff69401" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -26,12 +35,22 @@
 		    			</span>		    		
 		    		</div>
 		    	</form>
-		    	<div class="extra">
-		    		<p class="extra-text">Send us an <a href="mailto:hello@headatlas.com">email</a>, follow <a href="http://twitter.com/headatlas" target="_blank">@HeadAtlas</a> on Twitter, or <a href="https://www.facebook.com/headatlas" target="_blank">like us</a> on Facebook.</p>
-		    	</div>
 			</div>
 		</div>
+		<div class="row soundcloud-embeds">
+			<div class="col-md-4 no-padding">
+				<iframe height="400" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/281544839&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+			</div>
+			<div class="col-md-4 no-padding">
+				<iframe height="400" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/281454114&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+			</div>
+			<div class="col-md-4 no-padding">
+				<iframe height="400" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/281418885&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+			</div>
+		</div>
+
 	</div>
+	
 
 	<!-- google analytics -->
 	<script>
@@ -43,5 +62,6 @@
 	  ga('create', 'UA-48365596-1', 'headatlas.com');
 	  ga('send', 'pageview');
 	</script>
+	<script src="js/site.js"></script>
 </body>  
 </html>
